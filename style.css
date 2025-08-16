@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+/* Fundo gradiente azul e roxo */
+body {
+  background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.painel {
+  background: rgba(240, 248, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(78,84,200,0.19), 0 2px 4px #8f94fb33;
+  padding: 44px 34px 36px 34px;
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 30px;
+}
+
+h1 {
+  color: #4e54c8;
+  font-size: 2.1rem;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-shadow: 1px 1px 0 #fff, 0 2px 8px #8f94fb66;
+}
+
+#campo-input {
+  resize: vertical;
+  min-height: 8rem;
+  max-height: 19rem;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #8f94fb;
+  background: #f7f9fc;
+  color: #2e3451;
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 6px #8f94fb11;
+}
+#campo-input::placeholder {
+  color: #9fa8da;
+}
+
+#botao-separar {
+  background: linear-gradient(90deg, #8f94fb 0%, #4e54c8 100%);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.18rem;
+  font-weight: 700;
+  padding: 13px 0;
+  transition: background 0.3s;
+  box-shadow: 0 2px 6px #4e54c822;
+  cursor: pointer;
+}
+
+#botao-separar:hover {
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+}
+
+#area-lista {
+  border-radius: 7px;
+  min-height: 38px;
+  padding: 10px;
+  background: #eef2fb;
+  color: #6d6ad5;
+  font-size: 1.16rem;
+  text-align: center;
+  box-shadow: 0 1px 4px #8f94fb0c;
+  margin-top: 8px;
+  word-break: break-word;
+}
